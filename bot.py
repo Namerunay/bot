@@ -25,6 +25,4 @@ def get_weather(message):
         bot.send_message(message.chat.id, 'Problems on weather API')
 
 
-
-
 bot.polling(none_stop=True)
